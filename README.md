@@ -1,4 +1,5 @@
 # test-python
+[![Build Status](https://travis-ci.org/hongkailiu/test-python.svg?branch=master)](https://travis-ci.org/hongkailiu/test-python)
 
 ## run tests
 > python -m unittest discover
