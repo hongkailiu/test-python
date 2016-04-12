@@ -9,7 +9,7 @@ class TestEmployeeMethods(unittest.TestCase):
     unit_under_test = None
 
     def setUp(self):
-        print "setUp***"
+        print("setUp***")
         self.unit_under_test = Employee("tom", 1000)
 
     def test_trivial(self):
