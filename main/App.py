@@ -8,11 +8,12 @@ __author__ = 'ehongka'
 def main():
     """main function"""
     print("start")
-    pydevd.settrace('142.133.110.175', port=51234)
     logging.basicConfig(level=logging.DEBUG)
     logging.info("logging is working")
     print("end")
 
 
 if __name__ == "__main__":
+    print("111")
+    pydevd.settrace('142.133.110.175', port=51234)
     main()
